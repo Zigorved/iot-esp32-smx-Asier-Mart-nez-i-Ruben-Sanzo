@@ -37,15 +37,6 @@ ON: encén el LED.
 
 OFF: apaga el LED.
 
-Estructura del repositori
-iot-esp32-smx/
-└── practica1/
-    ├── README.md
-    ├── src/
-    │   └── main.ino
-    └── doc/
-        └── documentacio.pdf
-
 Gestió del projecte
 
 Projecte GitHub tipus Kanban amb:
