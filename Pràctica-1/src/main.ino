@@ -13,9 +13,9 @@ void loop() {
   if (Serial.available()) {
     String linea = Serial.readStringUntil('\n');
     linea.trim();
-    linea.toLowerCase();
     if (linea.length() > 0) {
       Serial.print("He rebut: ");
+      linea.toLowerCase();
       Serial.println(linea);
       if (linea == "on"){
         if (digitalRead(25) == LOW){
